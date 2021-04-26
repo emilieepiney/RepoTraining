@@ -23,7 +23,7 @@ deploy:
     secret_access_key: $Secret_Access_Key
     region: EU (Frankfurt) eu-central-1
     bucket: testbucketee 
-    local_dir: PytF
+    local_dir: local
     upload-dir: glue
     skip_cleanup: true
    - echo "On this machine \$LANG=$LANG"
